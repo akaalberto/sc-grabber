@@ -186,7 +186,7 @@
     "message": "Subfolder inside Downloads"
   },
   "optSubfolderHint": {
-    "message": "Empty = directly in the Chrome download folder."
+    "message": "Default: SoundCloud. Empty = directly in the Chrome download folder."
   },
   "optPattern": {
     "message": "File name pattern"

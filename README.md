@@ -32,7 +32,8 @@ Para actualizar: sustituye los archivos y pulsa el icono de recarga de la extens
 - **Opciones**: subcarpeta dentro de Descargas, patrón de nombre, segmentos en
   paralelo, saltar existentes, incrustar portada y gestión del `client_id`.
 
-Los archivos se guardan en la carpeta de descargas de Chrome. El patrón por defecto es
+Los archivos se guardan en la subcarpeta `SoundCloud` dentro de la carpeta de
+descargas de Chrome (se puede cambiar o dejar vacía en Opciones). El patrón por defecto es
 `{artist} - {title}.m4a`; variables disponibles: `{artist} {title} {album} {genre}
 {year} {date} {id} {index}`. Se sanean `\ / : * ? " < > |`, el nombre se trunca a 180
 caracteres y las colisiones se resuelven con sufijo ` (2)`, ` (3)`…

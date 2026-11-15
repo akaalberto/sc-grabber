@@ -186,7 +186,7 @@
     "message": "Subcarpeta dentro de Descargas"
   },
   "optSubfolderHint": {
-    "message": "Vacío = directamente en la carpeta de descargas de Chrome."
+    "message": "Por defecto «SoundCloud». Vacío = directamente en la carpeta de descargas de Chrome."
   },
   "optPattern": {
     "message": "Patrón de nombre"
