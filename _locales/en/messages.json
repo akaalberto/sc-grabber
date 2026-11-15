@@ -1,0 +1,251 @@
+{
+  "extDescription": {
+    "message": "Download the open SoundCloud track or playlist as .m4a with metadata and cover art. Fully local."
+  },
+  "btnDownload": {
+    "message": "Download M4A"
+  },
+  "btnDownloadPlaylist": {
+    "message": "Download playlist M4A"
+  },
+  "btnQueuing": {
+    "message": "Adding…"
+  },
+  "btnQueued": {
+    "message": "Queued"
+  },
+  "btnAlready": {
+    "message": "Already in queue"
+  },
+  "btnError": {
+    "message": "Error"
+  },
+  "btnReload": {
+    "message": "Reload the page"
+  },
+  "popupUrlLabel": {
+    "message": "Track or playlist URL"
+  },
+  "popupUrlPlaceholder": {
+    "message": "https://soundcloud.com/artist/track"
+  },
+  "popupAdd": {
+    "message": "Download"
+  },
+  "qualityLabel": {
+    "message": "Quality"
+  },
+  "qualityBest": {
+    "message": "Best available (AAC)"
+  },
+  "qualityStandard": {
+    "message": "Standard (AAC up to 160 kbps)"
+  },
+  "qualityLow": {
+    "message": "Light (lowest AAC)"
+  },
+  "popupPlaylist": {
+    "message": "Download the full playlist in this tab"
+  },
+  "popupLast": {
+    "message": "Last download"
+  },
+  "popupLastNone": {
+    "message": "No downloads yet."
+  },
+  "popupOpenQueue": {
+    "message": "Open queue"
+  },
+  "popupOptions": {
+    "message": "Options"
+  },
+  "popupAdded": {
+    "message": "Added to the queue."
+  },
+  "popupNotPlaylist": {
+    "message": "The active tab is not a SoundCloud playlist."
+  },
+  "popupPanelError": {
+    "message": "Could not open the side panel."
+  },
+  "popupActive": {
+    "message": "$1 active"
+  },
+  "panelTitle": {
+    "message": "Download queue"
+  },
+  "panelCancelAll": {
+    "message": "Cancel all"
+  },
+  "panelClear": {
+    "message": "Clear finished"
+  },
+  "panelEmpty": {
+    "message": "The queue is empty. Use the \"Download M4A\" button on SoundCloud or paste a URL in the popup."
+  },
+  "panelCancel": {
+    "message": "Cancel"
+  },
+  "panelRetry": {
+    "message": "Retry"
+  },
+  "panelRemove": {
+    "message": "Remove from queue"
+  },
+  "panelSegments": {
+    "message": "$1/$2 segments"
+  },
+  "panelSummary": {
+    "message": "$1 active · $2 done · $3 failed"
+  },
+  "st_queued": {
+    "message": "Queued"
+  },
+  "st_resolving": {
+    "message": "Resolving…"
+  },
+  "st_downloading": {
+    "message": "Downloading"
+  },
+  "st_muxing": {
+    "message": "Muxing M4A…"
+  },
+  "st_saving": {
+    "message": "Saving…"
+  },
+  "st_done": {
+    "message": "Done"
+  },
+  "st_error": {
+    "message": "Error"
+  },
+  "st_canceled": {
+    "message": "Canceled"
+  },
+  "st_skipped": {
+    "message": "Skipped: already exists"
+  },
+  "err_NETWORK": {
+    "message": "Network error. Check your connection and retry."
+  },
+  "err_TIMEOUT": {
+    "message": "The server took too long to respond."
+  },
+  "err_HTTP": {
+    "message": "SoundCloud rejected the request. It may be a regional block or an expired link; retry."
+  },
+  "err_CANCELED": {
+    "message": "Canceled."
+  },
+  "err_CLIENT_ID": {
+    "message": "Could not get a valid client_id. Open soundcloud.com and retry, or check it in Options."
+  },
+  "err_NOT_FOUND": {
+    "message": "Track or playlist not found (private or deleted?)."
+  },
+  "err_UNSUPPORTED_URL": {
+    "message": "The URL is not a SoundCloud track or playlist."
+  },
+  "err_NO_STREAM": {
+    "message": "This track offers no downloadable stream."
+  },
+  "err_DRM": {
+    "message": "This track is only served encrypted (DRM) and cannot be downloaded."
+  },
+  "err_PLAYLIST_PARSE": {
+    "message": "The HLS stream has an unexpected format."
+  },
+  "err_MUX_INIT": {
+    "message": "ffmpeg.wasm could not start and there is no direct fallback for this track."
+  },
+  "err_MUX": {
+    "message": "ffmpeg could not create the M4A file."
+  },
+  "err_DOWNLOAD": {
+    "message": "Chrome interrupted saving the file."
+  },
+  "err_UNKNOWN": {
+    "message": "Unexpected error. Retry."
+  },
+  "warn_mp3": {
+    "message": "ffmpeg.wasm is unavailable: the original MP3 was saved, not an M4A."
+  },
+  "warn_raw": {
+    "message": "ffmpeg.wasm is unavailable: the AAC audio was saved without metadata or cover."
+  },
+  "warn_preview": {
+    "message": "SoundCloud only offers a preview snippet of this track."
+  },
+  "warn_nocover": {
+    "message": "The cover art could not be embedded."
+  },
+  "optTitle": {
+    "message": "SC Grabber options"
+  },
+  "optSubfolder": {
+    "message": "Subfolder inside Downloads"
+  },
+  "optSubfolderHint": {
+    "message": "Empty = directly in the Chrome download folder."
+  },
+  "optPattern": {
+    "message": "File name pattern"
+  },
+  "optPatternHint": {
+    "message": "Variables: {artist} {title} {album} {genre} {year} {date} {id} {index}"
+  },
+  "optPreview": {
+    "message": "Example:"
+  },
+  "optConcurrency": {
+    "message": "Parallel segments"
+  },
+  "optConcurrencyHint": {
+    "message": "1 to 16. Default 8."
+  },
+  "optSkipExisting": {
+    "message": "Skip tracks already downloaded"
+  },
+  "optSkipExistingHint": {
+    "message": "Checked against the Chrome download history."
+  },
+  "optEmbedCover": {
+    "message": "Embed cover art"
+  },
+  "optSave": {
+    "message": "Save"
+  },
+  "optReset": {
+    "message": "Reset"
+  },
+  "optSaved": {
+    "message": "Saved."
+  },
+  "optClientTitle": {
+    "message": "SoundCloud client_id"
+  },
+  "optClientHint": {
+    "message": "The extension obtains it from soundcloud.com and caches it. If downloads fail with client_id errors, forget it so it is renewed."
+  },
+  "optClientCached": {
+    "message": "Cached"
+  },
+  "optClientForget": {
+    "message": "Forget"
+  },
+  "optClientOverride": {
+    "message": "Always use this client_id (optional)"
+  },
+  "optClientOverrideHint": {
+    "message": "32 alphanumeric characters. Empty = automatic. Press Save to apply."
+  },
+  "optClientNone": {
+    "message": "(none yet)"
+  },
+  "optClientInvalid": {
+    "message": "The client_id must be 32 alphanumeric characters."
+  },
+  "optClientForgotten": {
+    "message": "client_id forgotten."
+  }
+}

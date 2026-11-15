@@ -1,0 +1,12 @@
+/* Solo se estiliza el host: el botón vive en un shadow DOM cerrado. */
+.scg-host {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 4px;
+  line-height: 0;
+  flex: 0 0 auto;
+}
+
+.scg-host[data-scg-compact="1"] {
+  margin-left: 2px;
+}

@@ -1,0 +1,251 @@
+{
+  "extDescription": {
+    "message": "Descarga la pista o playlist de SoundCloud abierta como .m4a con metadatos y portada. Todo local."
+  },
+  "btnDownload": {
+    "message": "Descargar M4A"
+  },
+  "btnDownloadPlaylist": {
+    "message": "Descargar playlist M4A"
+  },
+  "btnQueuing": {
+    "message": "Añadiendo…"
+  },
+  "btnQueued": {
+    "message": "En cola"
+  },
+  "btnAlready": {
+    "message": "Ya está en la cola"
+  },
+  "btnError": {
+    "message": "Error"
+  },
+  "btnReload": {
+    "message": "Recarga la página"
+  },
+  "popupUrlLabel": {
+    "message": "URL de pista o playlist"
+  },
+  "popupUrlPlaceholder": {
+    "message": "https://soundcloud.com/artista/pista"
+  },
+  "popupAdd": {
+    "message": "Descargar"
+  },
+  "qualityLabel": {
+    "message": "Calidad"
+  },
+  "qualityBest": {
+    "message": "Mejor disponible (AAC)"
+  },
+  "qualityStandard": {
+    "message": "Estándar (AAC hasta 160 kbps)"
+  },
+  "qualityLow": {
+    "message": "Ligera (AAC más bajo)"
+  },
+  "popupPlaylist": {
+    "message": "Descargar playlist completa de esta pestaña"
+  },
+  "popupLast": {
+    "message": "Última descarga"
+  },
+  "popupLastNone": {
+    "message": "Aún no hay descargas."
+  },
+  "popupOpenQueue": {
+    "message": "Ver cola"
+  },
+  "popupOptions": {
+    "message": "Opciones"
+  },
+  "popupAdded": {
+    "message": "Añadido a la cola."
+  },
+  "popupNotPlaylist": {
+    "message": "La pestaña activa no es una playlist de SoundCloud."
+  },
+  "popupPanelError": {
+    "message": "No se pudo abrir el panel lateral."
+  },
+  "popupActive": {
+    "message": "$1 activas"
+  },
+  "panelTitle": {
+    "message": "Cola de descargas"
+  },
+  "panelCancelAll": {
+    "message": "Cancelar todo"
+  },
+  "panelClear": {
+    "message": "Limpiar terminadas"
+  },
+  "panelEmpty": {
+    "message": "La cola está vacía. Usa el botón «Descargar M4A» en SoundCloud o pega una URL en el popup."
+  },
+  "panelCancel": {
+    "message": "Cancelar"
+  },
+  "panelRetry": {
+    "message": "Reintentar"
+  },
+  "panelRemove": {
+    "message": "Quitar de la cola"
+  },
+  "panelSegments": {
+    "message": "$1/$2 segmentos"
+  },
+  "panelSummary": {
+    "message": "$1 activas · $2 completadas · $3 con error"
+  },
+  "st_queued": {
+    "message": "En cola"
+  },
+  "st_resolving": {
+    "message": "Resolviendo…"
+  },
+  "st_downloading": {
+    "message": "Descargando"
+  },
+  "st_muxing": {
+    "message": "Empaquetando M4A…"
+  },
+  "st_saving": {
+    "message": "Guardando…"
+  },
+  "st_done": {
+    "message": "Completada"
+  },
+  "st_error": {
+    "message": "Error"
+  },
+  "st_canceled": {
+    "message": "Cancelada"
+  },
+  "st_skipped": {
+    "message": "Omitida: ya existía"
+  },
+  "err_NETWORK": {
+    "message": "Error de red. Comprueba la conexión y reintenta."
+  },
+  "err_TIMEOUT": {
+    "message": "El servidor tardó demasiado en responder."
+  },
+  "err_HTTP": {
+    "message": "SoundCloud rechazó la petición. Puede ser un bloqueo regional o un enlace caducado; reintenta."
+  },
+  "err_CANCELED": {
+    "message": "Cancelada."
+  },
+  "err_CLIENT_ID": {
+    "message": "No se pudo obtener un client_id válido. Abre soundcloud.com y reintenta, o revísalo en Opciones."
+  },
+  "err_NOT_FOUND": {
+    "message": "No se encontró la pista o playlist (¿privada o eliminada?)."
+  },
+  "err_UNSUPPORTED_URL": {
+    "message": "La URL no es una pista ni una playlist de SoundCloud."
+  },
+  "err_NO_STREAM": {
+    "message": "Esta pista no ofrece ningún stream descargable."
+  },
+  "err_DRM": {
+    "message": "Esta pista solo se sirve cifrada (DRM) y no se puede descargar."
+  },
+  "err_PLAYLIST_PARSE": {
+    "message": "El stream HLS tiene un formato inesperado."
+  },
+  "err_MUX_INIT": {
+    "message": "ffmpeg.wasm no pudo arrancar y no hay alternativa directa para esta pista."
+  },
+  "err_MUX": {
+    "message": "ffmpeg no pudo crear el archivo M4A."
+  },
+  "err_DOWNLOAD": {
+    "message": "Chrome interrumpió el guardado del archivo."
+  },
+  "err_UNKNOWN": {
+    "message": "Error inesperado. Reintenta."
+  },
+  "warn_mp3": {
+    "message": "ffmpeg.wasm no está disponible: se guardó el MP3 original, no un M4A."
+  },
+  "warn_raw": {
+    "message": "ffmpeg.wasm no está disponible: se guardó el audio AAC sin metadatos ni portada."
+  },
+  "warn_preview": {
+    "message": "SoundCloud solo ofrece un fragmento de esta pista."
+  },
+  "warn_nocover": {
+    "message": "No se pudo incrustar la portada."
+  },
+  "optTitle": {
+    "message": "Opciones de SC Grabber"
+  },
+  "optSubfolder": {
+    "message": "Subcarpeta dentro de Descargas"
+  },
+  "optSubfolderHint": {
+    "message": "Vacío = directamente en la carpeta de descargas de Chrome."
+  },
+  "optPattern": {
+    "message": "Patrón de nombre"
+  },
+  "optPatternHint": {
+    "message": "Variables: {artist} {title} {album} {genre} {year} {date} {id} {index}"
+  },
+  "optPreview": {
+    "message": "Ejemplo:"
+  },
+  "optConcurrency": {
+    "message": "Segmentos en paralelo"
+  },
+  "optConcurrencyHint": {
+    "message": "De 1 a 16. Por defecto 8."
+  },
+  "optSkipExisting": {
+    "message": "Saltar pistas ya descargadas"
+  },
+  "optSkipExistingHint": {
+    "message": "Se comprueba contra el historial de descargas de Chrome."
+  },
+  "optEmbedCover": {
+    "message": "Incrustar portada"
+  },
+  "optSave": {
+    "message": "Guardar"
+  },
+  "optReset": {
+    "message": "Restablecer"
+  },
+  "optSaved": {
+    "message": "Guardado."
+  },
+  "optClientTitle": {
+    "message": "client_id de SoundCloud"
+  },
+  "optClientHint": {
+    "message": "La extensión lo obtiene sola de soundcloud.com y lo guarda en caché. Si las descargas fallan con errores de client_id, bórralo para que se renueve."
+  },
+  "optClientCached": {
+    "message": "En caché"
+  },
+  "optClientForget": {
+    "message": "Borrar caché"
+  },
+  "optClientOverride": {
+    "message": "Usar siempre este client_id (opcional)"
+  },
+  "optClientOverrideHint": {
+    "message": "32 caracteres alfanuméricos. Vacío = automático. Pulsa Guardar para aplicarlo."
+  },
+  "optClientNone": {
+    "message": "(ninguno todavía)"
+  },
+  "optClientInvalid": {
+    "message": "El client_id debe tener 32 caracteres alfanuméricos."
+  },
+  "optClientForgotten": {
+    "message": "client_id borrado."
+  }
+}

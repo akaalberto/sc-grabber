@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>SC Grabber</title>
+    <link rel="stylesheet" href="ui.css" />
+    <style>
+      body { width: 340px; padding: 12px; }
+      header { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; }
+      header img { width: 20px; height: 20px; }
+      header .grow { flex: 1; }
+      #message { min-height: 18px; margin: 6px 0 0; font-size: 12px; }
+      .box { border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px; background: var(--surface); }
+      .box .title { font-weight: 600; }
+      footer { display: flex; gap: 8px; margin-top: 12px; }
+      footer button { flex: 1; }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="icons/icon32.png" alt="" />
+      <h1 class="grow">SC Grabber</h1>
+      <span id="active" class="muted"></span>
+    </header>
+
+    <div class="field">
+      <label for="url" data-i18n="popupUrlLabel"></label>
+      <div class="row">
+        <input id="url" class="grow" type="url" spellcheck="false" data-i18n-placeholder="popupUrlPlaceholder" />
+        <button id="add" class="primary" data-i18n="popupAdd"></button>
+      </div>
+    </div>
+
+    <div class="field">
+      <label for="quality" data-i18n="qualityLabel"></label>
+      <select id="quality">
+        <option value="best" data-i18n="qualityBest"></option>
+        <option value="standard" data-i18n="qualityStandard"></option>
+        <option value="low" data-i18n="qualityLow"></option>
+      </select>
+    </div>
+
+    <button id="playlist" style="width: 100%" data-i18n="popupPlaylist"></button>
+    <p id="message" role="status"></p>
+
+    <h2 data-i18n="popupLast"></h2>
+    <div id="last" class="box muted" data-i18n="popupLastNone"></div>
+
+    <footer>
+      <button id="openPanel" data-i18n="popupOpenQueue"></button>
+      <button id="openOptions" data-i18n="popupOptions"></button>
+    </footer>
+
+    <script type="module" src="popup.js"></script>
+  </body>
+</html>

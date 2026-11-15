@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>SC Grabber</title>
+    <link rel="stylesheet" href="ui.css" />
+    <style>
+      body { padding: 24px; max-width: 620px; margin: 0 auto; }
+      h1 { font-size: 20px; margin-bottom: 16px; }
+      h2 { font-size: 15px; margin-top: 26px; padding-top: 16px; border-top: 1px solid var(--border); }
+      #concurrency { width: 90px; }
+      #saved { min-height: 18px; margin-left: 10px; }
+      #preview { margin-top: 6px; }
+    </style>
+  </head>
+  <body>
+    <h1 data-i18n="optTitle"></h1>
+
+    <div class="field">
+      <label for="subfolder" data-i18n="optSubfolder"></label>
+      <input id="subfolder" type="text" spellcheck="false" placeholder="SoundCloud" />
+      <p class="hint" data-i18n="optSubfolderHint"></p>
+    </div>
+
+    <div class="field">
+      <label for="pattern" data-i18n="optPattern"></label>
+      <input id="pattern" type="text" spellcheck="false" />
+      <p class="hint" data-i18n="optPatternHint"></p>
+      <p id="preview" class="hint"></p>
+    </div>
+
+    <div class="field">
+      <label for="quality" data-i18n="qualityLabel"></label>
+      <select id="quality">
+        <option value="best" data-i18n="qualityBest"></option>
+        <option value="standard" data-i18n="qualityStandard"></option>
+        <option value="low" data-i18n="qualityLow"></option>
+      </select>
+    </div>
+
+    <div class="field">
+      <label for="concurrency" data-i18n="optConcurrency"></label>
+      <input id="concurrency" type="number" min="1" max="16" step="1" />
+      <p class="hint" data-i18n="optConcurrencyHint"></p>
+    </div>
+
+    <div class="field">
+      <label class="check"><input id="skipExisting" type="checkbox" /><span data-i18n="optSkipExisting"></span></label>
+      <p class="hint" data-i18n="optSkipExistingHint"></p>
+    </div>
+
+    <div class="field">
+      <label class="check"><input id="embedCover" type="checkbox" /><span data-i18n="optEmbedCover"></span></label>
+    </div>
+
+    <div class="row">
+      <button id="save" class="primary" data-i18n="optSave"></button>
+      <button id="reset" data-i18n="optReset"></button>
+      <span id="saved" class="status-ok" role="status"></span>
+    </div>
+
+    <h2 data-i18n="optClientTitle"></h2>
+    <p class="hint" data-i18n="optClientHint"></p>
+    <div class="field">
+      <label data-i18n="optClientCached"></label>
+      <div class="row">
+        <code id="cachedId" class="grow ellipsis"></code>
+        <button id="forget" data-i18n="optClientForget"></button>
+      </div>
+    </div>
+    <div class="field">
+      <label for="clientIdOverride" data-i18n="optClientOverride"></label>
+      <input id="clientIdOverride" type="text" spellcheck="false" autocomplete="off" maxlength="32" />
+      <p class="hint" data-i18n="optClientOverrideHint"></p>
+    </div>
+
+    <script type="module" src="options.js"></script>
+  </body>
+</html>
